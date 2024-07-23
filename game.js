@@ -14,7 +14,7 @@ button.addEventListener("click",()=>{
 })
 
 let comchoice=()=>{
-    let option=["paper","rock","scissor"];
+    let option=["paper","rock","scissors"];
     let random=Math.floor(Math.random()*3);
     return option[random];
    
@@ -59,7 +59,7 @@ let userwin=true;
 if(userchoice==="rock"){
     userwin=compchoice==="paper"?false:true;
 }else if(userchoice==="paper"){
-    userwin=compchoice==="scissor"?false:true;
+    userwin=compchoice==="scissors"?false:true;
 }
 else{
     userwin=compchoice==="rock"?false:true;
